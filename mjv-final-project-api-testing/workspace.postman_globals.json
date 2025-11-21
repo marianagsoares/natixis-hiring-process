@@ -1,0 +1,213 @@
+{
+	"id": "cb16827f-21f4-4f21-8f6c-88d0e5370895",
+	"values": [
+		{
+			"key": "SUCCESSFULLY_AUTHENTICATED",
+			"value": "Successfully authenticated",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "SUCCESS_PASSWORD_RESET_TOKEN",
+			"value": "Password reset token sent to email",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "SUCCESS_PASSWORD_CHANGED",
+			"value": "Password changed successfully",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_EMAIL_REQUIRED",
+			"value": "Email is required",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_EMAIL_EMPTY",
+			"value": "Email cannot be empty",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_USER_NOT_FOUND",
+			"value": "User not found",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_EMAIL_INVALID",
+			"value": "Email must be valid",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_PASSWORD_REQUIRED",
+			"value": "Password is required",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_PASSWORD_EMPTY",
+			"value": "Password cannot be empty",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_PASSWORD_TOO_LONG",
+			"value": "Password cannot exceed 12 characters",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_PASSWORD_TOO_SHORT",
+			"value": "Password must be at least 6 characters",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_PASSWORD_MISSING_NUMBER",
+			"value": "Password must contain at least one number",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_PASSWORD_MISSING_LETTER",
+			"value": "Password must contain at least one letter",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_PASSWORD_MISSING_SPECIAL",
+			"value": "Password must contain at least one special character",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_TOKEN_REQUIRED",
+			"value": "Token is required",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_TOKEN_INVALID",
+			"value": "Invalid Token",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_TOKEN_EMPTY",
+			"value": "Token cannot be empty",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "USER_SUCCESSFULLY_CREATED",
+			"value": "User successfully created",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "USER_SUCCESSFULLY_UPDATED",
+			"value": "User successfully updated",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "USER_SUCCESSFULLY_DELETED",
+			"value": "User successfully deleted",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_FULLNAME_ALPHABETIC",
+			"value": "Full name must contain only alphabetic characters",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_FULLNAME_FIRSTNAME_LASTNAME",
+			"value": "Full name must contain at least first name and last name",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_FULLNAME_EMPTY",
+			"value": "Full name cannot be empty",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_BIRTHDAY_FORMAT",
+			"value": "Birthday must be a valid date in format DD-MM-YYYY",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_BIRTHDAY_UNDERAGE",
+			"value": "User must be at least 18 years old",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_BIRTHDAY_EMPTY",
+			"value": "Birthday cannot be empty",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_BIRTHDAY_INVALID_DATE",
+			"value": "Birthday must be a valid calendar date",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_EMAIL_DUPLICATED",
+			"value": "Email already registered",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_ROLE_INVALID",
+			"value": "Role must be either Administrador or Colaborador",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_USER_ID_INVALID",
+			"value": "Invalid user ID format",
+			"type": "any",
+			"enabled": true
+		},
+		{
+			"key": "ERROR_BIRTHDAY_FUTURE_DATE",
+			"value": "Birthday cannot be a future date",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PRODUCT_SUCCESSFULLY_CREATED",
+			"value": "Product successfully created",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PRODUCT_SUCCESSFULLY_UPDATED",
+			"value": "Product successfully updated",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "PRODUCT_SUCCESSFULLY_DELETED",
+			"value": "Product successfully deleted",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"name": "Globals",
+	"_postman_variable_scope": "globals",
+	"_postman_exported_at": "2025-11-21T18:34:52.636Z",
+	"_postman_exported_using": "Postman/11.72.9"
+}
