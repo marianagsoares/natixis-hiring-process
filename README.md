@@ -1,10 +1,12 @@
 README v1:
 
-# 🚀 Smart consulting - Hiring process
+# 🚀 Smart Consulting - Hiring Process
 
 ## 📋 About the Project
 
+This repository contains automated tests developed for the Smart Consulting technical challenge. The project includes API tests with Postman/Newman and E2E tests with Cypress for the Cypress Real World App platform.
 
+---
 
 ## 🧪 First project: API Tests (Postman/Newman)
 
@@ -91,10 +93,64 @@ Collection of automated tests for the API with complete endpoint validations, in
 - Contains detailed API test results
 - Includes performance and coverage metrics
 
+---
+
+## 🎭 Second project: E2E Tests (Cypress)
+
+### 📋 Description
+
+Automated tests for validating user registration and login functionality of the Cypress Real World App, including positive scenarios and exception handling.
+
+### 🧪 Implemented Test Cases
+
+#### **User Registration (Sign Up)**
+- **TC001**: Successful user registration
+- **TC002**: Validate error message when First Name field has fewer than 3 characters
+- **TC003**: Validate error message when Last Name field has fewer than 3 characters
+- **TC004**: Validate error message when Password field has fewer than 4 characters
+
+#### **User Login (Sign In)**
+- **TC012**: Successful user login
+- **TC014**: Validate error message when the username is correct and the password is incorrect
+- **TC015**: Validate error message when the username is incorrect and the password is correct
+
+### 🛠️ How to Run Cypress Tests
+
+#### **Prerequisites**
+- Node.js (version 14 or higher)
+- npm
+
+#### **Step 1: Install Dependencies**
+```bash
+cd cypress-realworld-app-frontend-testing
+npm install
+```
+
+#### **Step 2: Run Tests (Interactive Mode)**
+```bash
+npm run test:ui
+```
+
+#### **Step 3: Run Tests (Headless Mode)**
+```bash
+npm run test
+```
+
+### ⚙️ Cypress Configuration
+
+The project is configured with:
+- **Base URL**: `http://localhost:3000`
+- **Test Framework**: Cypress E2E Testing
+
+**Note**: Make sure the Cypress Real World App is running locally on port 3000 before executing the tests.
+
+---
+
 ## 🛠️ Technologies Used
 
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Newman](https://img.shields.io/badge/Newman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ## 🖋 Author
