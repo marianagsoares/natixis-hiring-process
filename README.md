@@ -1,5 +1,3 @@
-README v1:
-
 # 🚀 Natixis - Hiring Process
 
 ## 📋 About the Project
