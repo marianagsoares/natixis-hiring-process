@@ -151,6 +151,41 @@ The project is configured with:
 ![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+
+## 👩🏼‍💻 Presentation Topics
+
+* Introduction
+* Backend
+    * API Overview
+    * Collections
+    * Folder Structure
+    * Test Cases
+    * Test Planning
+         * VADER
+    * Scripts
+         * Pre-request
+         * Post-response
+
+   * Globals vs. Environments
+   * Test Execution
+   * Newman
+   * Defect Reporting
+* Frontend
+   * System Overview
+   * Feature Overview
+   * Technical Report
+        * Specifications
+            * User Story
+            * Acceptance Criteria
+        * Test Cases
+            * Gherkin
+            * Success and Exception Scenarios
+            * Evidence
+            * Bug Spreadsheet
+    * Automation
+         * Automated Scenarios
+         * Project Structure
+      
 ## 🖋 Author
 
 <p align="center">Developed by Mariana Soares</p>
