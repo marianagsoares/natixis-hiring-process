@@ -107,7 +107,7 @@ Automated tests for validating user registration and login functionality of the 
 - **TC003**: Validate error message when Last Name field has fewer than 3 characters
 - **TC004**: Validate error message when Password field has fewer than 4 characters
 
-#### **User Login (Sign In)**
+#### **First User Login (Sign In)**
 - **TC012**: Successful user login
 - **TC014**: Validate error message when the username is correct and the password is incorrect
 - **TC015**: Validate error message when the username is incorrect and the password is correct
